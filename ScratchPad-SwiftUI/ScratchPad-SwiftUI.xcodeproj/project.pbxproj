@@ -12,7 +12,11 @@
 		0481A48429CDCA7B00AF87EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0481A48329CDCA7B00AF87EC /* Assets.xcassets */; };
 		0481A48729CDCA7B00AF87EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0481A48629CDCA7B00AF87EC /* Preview Assets.xcassets */; };
 		0481A48F29CDCBA300AF87EC /* ExampleContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481A48E29CDCBA300AF87EC /* ExampleContent.swift */; };
-		0481A49129CDCC6500AF87EC /* TestPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481A49029CDCC6500AF87EC /* TestPreview.swift */; };
+		0481A49329CDCEEE00AF87EC /* ExpandableViewModifier1Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481A49229CDCEEE00AF87EC /* ExpandableViewModifier1Preview.swift */; };
+		0481A49729CDCF2600AF87EC /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481A49629CDCF2600AF87EC /* View.swift */; };
+		0481A49929CDCF3000AF87EC /* UIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481A49829CDCF3000AF87EC /* UIModel.swift */; };
+		0481A49B29CDCF8800AF87EC /* PreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481A49A29CDCF8800AF87EC /* PreferenceKey.swift */; };
+		0481A49D29CDCFB700AF87EC /* ViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481A49C29CDCFB700AF87EC /* ViewModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +26,11 @@
 		0481A48329CDCA7B00AF87EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0481A48629CDCA7B00AF87EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0481A48E29CDCBA300AF87EC /* ExampleContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleContent.swift; sourceTree = "<group>"; };
-		0481A49029CDCC6500AF87EC /* TestPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPreview.swift; sourceTree = "<group>"; };
+		0481A49229CDCEEE00AF87EC /* ExpandableViewModifier1Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableViewModifier1Preview.swift; sourceTree = "<group>"; };
+		0481A49629CDCF2600AF87EC /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		0481A49829CDCF3000AF87EC /* UIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIModel.swift; sourceTree = "<group>"; };
+		0481A49A29CDCF8800AF87EC /* PreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKey.swift; sourceTree = "<group>"; };
+		0481A49C29CDCFB700AF87EC /* ViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,7 @@
 		0481A47E29CDCA7A00AF87EC /* ScratchPad-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				0481A49429CDCF0600AF87EC /* Content */,
 				0481A48D29CDCB9700AF87EC /* Preview */,
 				0481A48E29CDCBA300AF87EC /* ExampleContent.swift */,
 				0481A48129CDCA7A00AF87EC /* ContentView.swift */,
@@ -76,9 +85,28 @@
 		0481A48D29CDCB9700AF87EC /* Preview */ = {
 			isa = PBXGroup;
 			children = (
-				0481A49029CDCC6500AF87EC /* TestPreview.swift */,
+				0481A49229CDCEEE00AF87EC /* ExpandableViewModifier1Preview.swift */,
 			);
 			path = Preview;
+			sourceTree = "<group>";
+		};
+		0481A49429CDCF0600AF87EC /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				0481A49529CDCF0D00AF87EC /* ExpandableViewModifier1 */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		0481A49529CDCF0D00AF87EC /* ExpandableViewModifier1 */ = {
+			isa = PBXGroup;
+			children = (
+				0481A49629CDCF2600AF87EC /* View.swift */,
+				0481A49829CDCF3000AF87EC /* UIModel.swift */,
+				0481A49A29CDCF8800AF87EC /* PreferenceKey.swift */,
+				0481A49C29CDCFB700AF87EC /* ViewModifier.swift */,
+			);
+			path = ExpandableViewModifier1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +181,11 @@
 			files = (
 				0481A48229CDCA7A00AF87EC /* ContentView.swift in Sources */,
 				0481A48029CDCA7A00AF87EC /* ScratchPad_SwiftUIApp.swift in Sources */,
-				0481A49129CDCC6500AF87EC /* TestPreview.swift in Sources */,
+				0481A49929CDCF3000AF87EC /* UIModel.swift in Sources */,
+				0481A49D29CDCFB700AF87EC /* ViewModifier.swift in Sources */,
+				0481A49B29CDCF8800AF87EC /* PreferenceKey.swift in Sources */,
+				0481A49729CDCF2600AF87EC /* View.swift in Sources */,
+				0481A49329CDCEEE00AF87EC /* ExpandableViewModifier1Preview.swift in Sources */,
 				0481A48F29CDCBA300AF87EC /* ExampleContent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

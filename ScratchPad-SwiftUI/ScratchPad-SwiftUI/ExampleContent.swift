@@ -8,7 +8,7 @@
 import Foundation
 
 enum ExampleContent: Int, CaseIterable, Identifiable {
-    case test
+    case expandableViewModifier1
 }
 
 extension ExampleContent {
@@ -16,8 +16,8 @@ extension ExampleContent {
     
     var title: String {
         switch self {
-        case .test:
-            return "테스트"
+        case .expandableViewModifier1:
+            return "확장가능한 ViewModifier1"
         }
     }
 }
