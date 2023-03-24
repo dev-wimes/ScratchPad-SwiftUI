@@ -8,19 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var showSheet: Bool = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        List(ExampleContent.allCases) { content in
+            Button {
+                self.showSheet = true
+            } label: {
+                Text(content.title)
+            }
+            .sheet(isPresented: self.$showSheet) {
+                ModalPreview(content)
+            }
         }
-        .padding()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+extension ContentView {
+    @ViewBuilder
+    func ModalPreview(_ content: ExampleContent) -> some View {
+        switch content {
+        case .test:
+            TestPreview()
+        }
     }
 }
