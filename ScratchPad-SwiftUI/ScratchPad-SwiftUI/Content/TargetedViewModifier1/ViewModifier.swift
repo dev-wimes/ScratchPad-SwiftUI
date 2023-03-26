@@ -7,26 +7,26 @@
 
 import SwiftUI
 
-struct ExpandableViewModifier1ColorModifier: ViewModifier {
+struct TargetedModifier1ColorModifier: ViewModifier {
     private let color: Color
     init(color: Color) { self.color = color }
     
     func body(content: Content) -> some View {
         content
-            .onPreferenceChange(ExpandableViewModifier1PreferenceKey.self) { model in
+            .onPreferenceChange(TargetedModifier1PreferenceKey.self) { model in
                 model.color = self.color
             }
     }
 }
 
-struct ExpandableViewModifier1FontModifier: ViewModifier {
+struct TargetedModifier1FontModifier: ViewModifier {
     
     private let font: Font
     init(font: Font) { self.font = font }
     
     func body(content: Content) -> some View {
         content
-            .onPreferenceChange(ExpandableViewModifier1PreferenceKey.self) { model in
+            .onPreferenceChange(TargetedModifier1PreferenceKey.self) { model in
                 model.font = self.font
             }
     }

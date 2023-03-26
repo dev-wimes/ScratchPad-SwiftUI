@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-final class ExpandableViewModifier1UIModel: ObservableObject, Equatable {
-    static func == (lhs: ExpandableViewModifier1UIModel, rhs: ExpandableViewModifier1UIModel) -> Bool {
+final class TargetedModifier1UIModel: ObservableObject, Equatable {
+    static func == (lhs: TargetedModifier1UIModel, rhs: TargetedModifier1UIModel) -> Bool {
         lhs.color == rhs.color
         && lhs.font == rhs.font
     }
@@ -16,6 +16,6 @@ final class ExpandableViewModifier1UIModel: ObservableObject, Equatable {
     @Published var color: Color = .black
     @Published var font: Font = .body
     
-    init() { }
-    deinit { print("deinit") }
+    init() { print("init \(String(describing: self))")}
+    deinit { print("deinit \(String(describing: self))") }
 }

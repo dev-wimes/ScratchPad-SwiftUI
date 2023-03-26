@@ -93,12 +93,12 @@
 		0481A49429CDCF0600AF87EC /* Content */ = {
 			isa = PBXGroup;
 			children = (
-				0481A49529CDCF0D00AF87EC /* ExpandableViewModifier1 */,
+				0481A49529CDCF0D00AF87EC /* TargetedViewModifier1 */,
 			);
 			path = Content;
 			sourceTree = "<group>";
 		};
-		0481A49529CDCF0D00AF87EC /* ExpandableViewModifier1 */ = {
+		0481A49529CDCF0D00AF87EC /* TargetedViewModifier1 */ = {
 			isa = PBXGroup;
 			children = (
 				0481A49629CDCF2600AF87EC /* View.swift */,
@@ -106,7 +106,7 @@
 				0481A49A29CDCF8800AF87EC /* PreferenceKey.swift */,
 				0481A49C29CDCFB700AF87EC /* ViewModifier.swift */,
 			);
-			path = ExpandableViewModifier1;
+			path = TargetedViewModifier1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

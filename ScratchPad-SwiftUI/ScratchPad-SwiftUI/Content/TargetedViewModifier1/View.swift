@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-struct ExpandableViewModifier1View: View {
-    @ObservedObject var model: ExpandableViewModifier1UIModel = .init()
+struct TargetedModifier1View: View {
+    @ObservedObject var model: TargetedModifier1UIModel = .init()
     
     var body: some View {
         Group {
             Text("MyView")
-                .preference(key: ExpandableViewModifier1PreferenceKey.self, value: self.model)
+                .preference(key: TargetedModifier1PreferenceKey.self, value: self.model)
                 .foregroundColor(self.model.color)
                 .font(self.model.font)
         }
@@ -22,10 +22,10 @@ struct ExpandableViewModifier1View: View {
 
 extension View {
     func makeToRed() -> some View {
-        modifier(ExpandableViewModifier1ColorModifier(color: .red))
+        modifier(TargetedModifier1ColorModifier(color: .red))
     }
     
     func makeToLarge() -> some View {
-        modifier(ExpandableViewModifier1FontModifier(font: .largeTitle))
+        modifier(TargetedModifier1FontModifier(font: .largeTitle))
     }
 }

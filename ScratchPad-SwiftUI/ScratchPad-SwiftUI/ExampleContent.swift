@@ -8,7 +8,7 @@
 import Foundation
 
 enum ExampleContent: Int, CaseIterable, Identifiable {
-    case expandableViewModifier1
+    case targetedViewModifier1
 }
 
 extension ExampleContent {
@@ -16,8 +16,8 @@ extension ExampleContent {
     
     var title: String {
         switch self {
-        case .expandableViewModifier1:
-            return "확장가능한 ViewModifier1"
+        case .targetedViewModifier1:
+            return "특정된 ViewModifier1"
         }
     }
 }

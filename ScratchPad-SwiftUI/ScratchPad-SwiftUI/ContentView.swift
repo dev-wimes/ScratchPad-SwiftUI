@@ -28,8 +28,8 @@ extension ContentView {
     @ViewBuilder
     func ModalPreview(_ content: ExampleContent) -> some View {
         switch content {
-        case .expandableViewModifier1:
-            ExpandableViewModifier1PreView()
+        case .targetedViewModifier1:
+            TargetedModifier1PreView()
         }
     }
 }

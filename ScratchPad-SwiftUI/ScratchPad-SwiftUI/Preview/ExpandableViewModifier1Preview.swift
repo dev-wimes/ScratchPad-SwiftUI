@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ExpandableViewModifier1PreView: View {
+struct TargetedModifier1PreView: View {
     @State var popup: Bool = false
     
     var body: some View {
@@ -22,7 +22,7 @@ struct ExpandableViewModifier1PreView: View {
         }
         .sheet(isPresented: self.$popup) {
             Group {
-                ExpandableViewModifier1View()
+                TargetedModifier1View()
                 Text("otherView")
             }
             .makeToRed()
