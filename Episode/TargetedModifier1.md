@@ -1,5 +1,7 @@
 # TargetedModifier1
 
+**[전체 코드](https://github.com/dev-wimes/ScratchPad-SwiftUI/tree/7db0dc852354f9d95728e3a8ce4272d11bcf3f62/ScratchPad-SwiftUI/ScratchPad-SwiftUI/Content/TargetedViewModifier1)**
+
 ## 개요
 
 SwiftUI에서 Custom한 View를 만들기 위해서는 새롭게 View를 만드는 방법도 있지만, 유연하게 chaining 방식으로 View를 구성할 수 있다.
