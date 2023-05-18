@@ -7,19 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		047B301E2A15C9A100FB2797 /* View+WMTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B301D2A15C9A100FB2797 /* View+WMTabView.swift */; };
+		047B30202A15C9BC00FB2797 /* WMTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B301F2A15C9BC00FB2797 /* WMTabView.swift */; };
+		047B30222A15C9D400FB2797 /* WMTabUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B30212A15C9D400FB2797 /* WMTabUIModel.swift */; };
+		047B30242A15CA1E00FB2797 /* GPTabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B30232A15CA1E00FB2797 /* GPTabItem.swift */; };
+		047B30292A15CA6000FB2797 /* WMTabItemSelectionEnvironmentKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B30282A15CA6000FB2797 /* WMTabItemSelectionEnvironmentKey.swift */; };
+		047B302B2A15CA7500FB2797 /* WMTabView+EnvironmentValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B302A2A15CA7500FB2797 /* WMTabView+EnvironmentValues.swift */; };
+		047B302D2A15CA9D00FB2797 /* WMTabViewVisibilityEnvrionmentKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B302C2A15CA9D00FB2797 /* WMTabViewVisibilityEnvrionmentKey.swift */; };
+		047B30302A15CAC600FB2797 /* WMTabItemPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B302F2A15CAC600FB2797 /* WMTabItemPreferenceKey.swift */; };
+		047B30332A15CADC00FB2797 /* WMTabItemStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B30322A15CADC00FB2797 /* WMTabItemStyle.swift */; };
+		047B30352A15CAE500FB2797 /* WMTabItemDefaultStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B30342A15CAE500FB2797 /* WMTabItemDefaultStyle.swift */; };
+		047B30382A15CB2400FB2797 /* TabItemViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B30372A15CB2400FB2797 /* TabItemViewModifier.swift */; };
+		047B303D2A15CB4C00FB2797 /* WMTabViewPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B303C2A15CB4C00FB2797 /* WMTabViewPreferenceKey.swift */; };
+		047B303F2A15CB5C00FB2797 /* WMTabViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B303E2A15CB5C00FB2797 /* WMTabViewStyle.swift */; };
+		047B30412A15CB6400FB2797 /* WMTabViewDefaultStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B30402A15CB6400FB2797 /* WMTabViewDefaultStyle.swift */; };
+		047B30432A15CB9500FB2797 /* WMTabViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B30422A15CB9500FB2797 /* WMTabViewModifier.swift */; };
+		047B30452A15CC5000FB2797 /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B30442A15CC5000FB2797 /* View+.swift */; };
+		047B30472A15CC7400FB2797 /* WMVisibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B30462A15CC7400FB2797 /* WMVisibility.swift */; };
+		047B304A2A15CD1800FB2797 /* WMTabPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B30492A15CD1800FB2797 /* WMTabPreview.swift */; };
 		0481A48029CDCA7A00AF87EC /* ScratchPad_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481A47F29CDCA7A00AF87EC /* ScratchPad_SwiftUIApp.swift */; };
 		0481A48229CDCA7A00AF87EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481A48129CDCA7A00AF87EC /* ContentView.swift */; };
 		0481A48429CDCA7B00AF87EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0481A48329CDCA7B00AF87EC /* Assets.xcassets */; };
 		0481A48729CDCA7B00AF87EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0481A48629CDCA7B00AF87EC /* Preview Assets.xcassets */; };
 		0481A48F29CDCBA300AF87EC /* ExampleContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481A48E29CDCBA300AF87EC /* ExampleContent.swift */; };
 		0481A49329CDCEEE00AF87EC /* ExpandableViewModifier1Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481A49229CDCEEE00AF87EC /* ExpandableViewModifier1Preview.swift */; };
-		0481A49729CDCF2600AF87EC /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481A49629CDCF2600AF87EC /* View.swift */; };
-		0481A49929CDCF3000AF87EC /* UIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481A49829CDCF3000AF87EC /* UIModel.swift */; };
-		0481A49B29CDCF8800AF87EC /* PreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481A49A29CDCF8800AF87EC /* PreferenceKey.swift */; };
-		0481A49D29CDCFB700AF87EC /* ViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481A49C29CDCFB700AF87EC /* ViewModifier.swift */; };
+		0481A49729CDCF2600AF87EC /* TargetedModifier1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481A49629CDCF2600AF87EC /* TargetedModifier1View.swift */; };
+		0481A49929CDCF3000AF87EC /* TargetedModifier1UIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481A49829CDCF3000AF87EC /* TargetedModifier1UIModel.swift */; };
+		0481A49B29CDCF8800AF87EC /* TargetedModifier1PreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481A49A29CDCF8800AF87EC /* TargetedModifier1PreferenceKey.swift */; };
+		0481A49D29CDCFB700AF87EC /* TargetedModifier1ViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481A49C29CDCFB700AF87EC /* TargetedModifier1ViewModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		047B301D2A15C9A100FB2797 /* View+WMTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+WMTabView.swift"; sourceTree = "<group>"; };
+		047B301F2A15C9BC00FB2797 /* WMTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMTabView.swift; sourceTree = "<group>"; };
+		047B30212A15C9D400FB2797 /* WMTabUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMTabUIModel.swift; sourceTree = "<group>"; };
+		047B30232A15CA1E00FB2797 /* GPTabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTabItem.swift; sourceTree = "<group>"; };
+		047B30282A15CA6000FB2797 /* WMTabItemSelectionEnvironmentKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMTabItemSelectionEnvironmentKey.swift; sourceTree = "<group>"; };
+		047B302A2A15CA7500FB2797 /* WMTabView+EnvironmentValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WMTabView+EnvironmentValues.swift"; sourceTree = "<group>"; };
+		047B302C2A15CA9D00FB2797 /* WMTabViewVisibilityEnvrionmentKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMTabViewVisibilityEnvrionmentKey.swift; sourceTree = "<group>"; };
+		047B302F2A15CAC600FB2797 /* WMTabItemPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMTabItemPreferenceKey.swift; sourceTree = "<group>"; };
+		047B30322A15CADC00FB2797 /* WMTabItemStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMTabItemStyle.swift; sourceTree = "<group>"; };
+		047B30342A15CAE500FB2797 /* WMTabItemDefaultStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMTabItemDefaultStyle.swift; sourceTree = "<group>"; };
+		047B30372A15CB2400FB2797 /* TabItemViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemViewModifier.swift; sourceTree = "<group>"; };
+		047B303C2A15CB4C00FB2797 /* WMTabViewPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMTabViewPreferenceKey.swift; sourceTree = "<group>"; };
+		047B303E2A15CB5C00FB2797 /* WMTabViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMTabViewStyle.swift; sourceTree = "<group>"; };
+		047B30402A15CB6400FB2797 /* WMTabViewDefaultStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMTabViewDefaultStyle.swift; sourceTree = "<group>"; };
+		047B30422A15CB9500FB2797 /* WMTabViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMTabViewModifier.swift; sourceTree = "<group>"; };
+		047B30442A15CC5000FB2797 /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
+		047B30462A15CC7400FB2797 /* WMVisibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMVisibility.swift; sourceTree = "<group>"; };
+		047B30492A15CD1800FB2797 /* WMTabPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMTabPreview.swift; sourceTree = "<group>"; };
 		0481A47C29CDCA7A00AF87EC /* ScratchPad-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ScratchPad-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0481A47F29CDCA7A00AF87EC /* ScratchPad_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchPad_SwiftUIApp.swift; sourceTree = "<group>"; };
 		0481A48129CDCA7A00AF87EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -27,10 +63,10 @@
 		0481A48629CDCA7B00AF87EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0481A48E29CDCBA300AF87EC /* ExampleContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleContent.swift; sourceTree = "<group>"; };
 		0481A49229CDCEEE00AF87EC /* ExpandableViewModifier1Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableViewModifier1Preview.swift; sourceTree = "<group>"; };
-		0481A49629CDCF2600AF87EC /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
-		0481A49829CDCF3000AF87EC /* UIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIModel.swift; sourceTree = "<group>"; };
-		0481A49A29CDCF8800AF87EC /* PreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKey.swift; sourceTree = "<group>"; };
-		0481A49C29CDCFB700AF87EC /* ViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifier.swift; sourceTree = "<group>"; };
+		0481A49629CDCF2600AF87EC /* TargetedModifier1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetedModifier1View.swift; sourceTree = "<group>"; };
+		0481A49829CDCF3000AF87EC /* TargetedModifier1UIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetedModifier1UIModel.swift; sourceTree = "<group>"; };
+		0481A49A29CDCF8800AF87EC /* TargetedModifier1PreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetedModifier1PreferenceKey.swift; sourceTree = "<group>"; };
+		0481A49C29CDCFB700AF87EC /* TargetedModifier1ViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetedModifier1ViewModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +80,109 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		047B301B2A15C95D00FB2797 /* WMTabView */ = {
+			isa = PBXGroup;
+			children = (
+				047B30272A15CA4300FB2797 /* Environment */,
+				047B30262A15CA3400FB2797 /* TabView */,
+				047B30252A15CA3100FB2797 /* TabItem */,
+				047B301D2A15C9A100FB2797 /* View+WMTabView.swift */,
+				047B301F2A15C9BC00FB2797 /* WMTabView.swift */,
+				047B30212A15C9D400FB2797 /* WMTabUIModel.swift */,
+			);
+			path = WMTabView;
+			sourceTree = "<group>";
+		};
+		047B30252A15CA3100FB2797 /* TabItem */ = {
+			isa = PBXGroup;
+			children = (
+				047B30362A15CB1600FB2797 /* ViewModifier */,
+				047B30312A15CACF00FB2797 /* Style */,
+				047B302E2A15CAB900FB2797 /* PreferenceKey */,
+				047B30232A15CA1E00FB2797 /* GPTabItem.swift */,
+			);
+			path = TabItem;
+			sourceTree = "<group>";
+		};
+		047B30262A15CA3400FB2797 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				047B303B2A15CB3A00FB2797 /* ViewModifier */,
+				047B303A2A15CB3700FB2797 /* Style */,
+				047B30392A15CB3200FB2797 /* PreferenceKey */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		047B30272A15CA4300FB2797 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				047B30282A15CA6000FB2797 /* WMTabItemSelectionEnvironmentKey.swift */,
+				047B302A2A15CA7500FB2797 /* WMTabView+EnvironmentValues.swift */,
+				047B302C2A15CA9D00FB2797 /* WMTabViewVisibilityEnvrionmentKey.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		047B302E2A15CAB900FB2797 /* PreferenceKey */ = {
+			isa = PBXGroup;
+			children = (
+				047B302F2A15CAC600FB2797 /* WMTabItemPreferenceKey.swift */,
+			);
+			path = PreferenceKey;
+			sourceTree = "<group>";
+		};
+		047B30312A15CACF00FB2797 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				047B30322A15CADC00FB2797 /* WMTabItemStyle.swift */,
+				047B30342A15CAE500FB2797 /* WMTabItemDefaultStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		047B30362A15CB1600FB2797 /* ViewModifier */ = {
+			isa = PBXGroup;
+			children = (
+				047B30372A15CB2400FB2797 /* TabItemViewModifier.swift */,
+			);
+			path = ViewModifier;
+			sourceTree = "<group>";
+		};
+		047B30392A15CB3200FB2797 /* PreferenceKey */ = {
+			isa = PBXGroup;
+			children = (
+				047B303C2A15CB4C00FB2797 /* WMTabViewPreferenceKey.swift */,
+			);
+			path = PreferenceKey;
+			sourceTree = "<group>";
+		};
+		047B303A2A15CB3700FB2797 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				047B303E2A15CB5C00FB2797 /* WMTabViewStyle.swift */,
+				047B30402A15CB6400FB2797 /* WMTabViewDefaultStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		047B303B2A15CB3A00FB2797 /* ViewModifier */ = {
+			isa = PBXGroup;
+			children = (
+				047B30422A15CB9500FB2797 /* WMTabViewModifier.swift */,
+			);
+			path = ViewModifier;
+			sourceTree = "<group>";
+		};
+		047B30482A15CCB600FB2797 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				047B30442A15CC5000FB2797 /* View+.swift */,
+				047B30462A15CC7400FB2797 /* WMVisibility.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		0481A47329CDCA7A00AF87EC = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +202,7 @@
 		0481A47E29CDCA7A00AF87EC /* ScratchPad-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				047B30482A15CCB600FB2797 /* Common */,
 				0481A49429CDCF0600AF87EC /* Content */,
 				0481A48D29CDCB9700AF87EC /* Preview */,
 				0481A48E29CDCBA300AF87EC /* ExampleContent.swift */,
@@ -86,6 +226,7 @@
 			isa = PBXGroup;
 			children = (
 				0481A49229CDCEEE00AF87EC /* ExpandableViewModifier1Preview.swift */,
+				047B30492A15CD1800FB2797 /* WMTabPreview.swift */,
 			);
 			path = Preview;
 			sourceTree = "<group>";
@@ -93,6 +234,7 @@
 		0481A49429CDCF0600AF87EC /* Content */ = {
 			isa = PBXGroup;
 			children = (
+				047B301B2A15C95D00FB2797 /* WMTabView */,
 				0481A49529CDCF0D00AF87EC /* TargetedViewModifier1 */,
 			);
 			path = Content;
@@ -101,10 +243,10 @@
 		0481A49529CDCF0D00AF87EC /* TargetedViewModifier1 */ = {
 			isa = PBXGroup;
 			children = (
-				0481A49629CDCF2600AF87EC /* View.swift */,
-				0481A49829CDCF3000AF87EC /* UIModel.swift */,
-				0481A49A29CDCF8800AF87EC /* PreferenceKey.swift */,
-				0481A49C29CDCFB700AF87EC /* ViewModifier.swift */,
+				0481A49629CDCF2600AF87EC /* TargetedModifier1View.swift */,
+				0481A49829CDCF3000AF87EC /* TargetedModifier1UIModel.swift */,
+				0481A49A29CDCF8800AF87EC /* TargetedModifier1PreferenceKey.swift */,
+				0481A49C29CDCFB700AF87EC /* TargetedModifier1ViewModifier.swift */,
 			);
 			path = TargetedViewModifier1;
 			sourceTree = "<group>";
@@ -179,14 +321,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047B30412A15CB6400FB2797 /* WMTabViewDefaultStyle.swift in Sources */,
+				047B301E2A15C9A100FB2797 /* View+WMTabView.swift in Sources */,
 				0481A48229CDCA7A00AF87EC /* ContentView.swift in Sources */,
 				0481A48029CDCA7A00AF87EC /* ScratchPad_SwiftUIApp.swift in Sources */,
-				0481A49929CDCF3000AF87EC /* UIModel.swift in Sources */,
-				0481A49D29CDCFB700AF87EC /* ViewModifier.swift in Sources */,
-				0481A49B29CDCF8800AF87EC /* PreferenceKey.swift in Sources */,
-				0481A49729CDCF2600AF87EC /* View.swift in Sources */,
+				047B30452A15CC5000FB2797 /* View+.swift in Sources */,
+				0481A49929CDCF3000AF87EC /* TargetedModifier1UIModel.swift in Sources */,
+				047B30202A15C9BC00FB2797 /* WMTabView.swift in Sources */,
+				047B30382A15CB2400FB2797 /* TabItemViewModifier.swift in Sources */,
+				047B30332A15CADC00FB2797 /* WMTabItemStyle.swift in Sources */,
+				0481A49D29CDCFB700AF87EC /* TargetedModifier1ViewModifier.swift in Sources */,
+				047B30222A15C9D400FB2797 /* WMTabUIModel.swift in Sources */,
+				0481A49B29CDCF8800AF87EC /* TargetedModifier1PreferenceKey.swift in Sources */,
+				0481A49729CDCF2600AF87EC /* TargetedModifier1View.swift in Sources */,
+				047B30302A15CAC600FB2797 /* WMTabItemPreferenceKey.swift in Sources */,
+				047B304A2A15CD1800FB2797 /* WMTabPreview.swift in Sources */,
 				0481A49329CDCEEE00AF87EC /* ExpandableViewModifier1Preview.swift in Sources */,
+				047B30472A15CC7400FB2797 /* WMVisibility.swift in Sources */,
+				047B302D2A15CA9D00FB2797 /* WMTabViewVisibilityEnvrionmentKey.swift in Sources */,
+				047B302B2A15CA7500FB2797 /* WMTabView+EnvironmentValues.swift in Sources */,
+				047B303F2A15CB5C00FB2797 /* WMTabViewStyle.swift in Sources */,
 				0481A48F29CDCBA300AF87EC /* ExampleContent.swift in Sources */,
+				047B30242A15CA1E00FB2797 /* GPTabItem.swift in Sources */,
+				047B30432A15CB9500FB2797 /* WMTabViewModifier.swift in Sources */,
+				047B303D2A15CB4C00FB2797 /* WMTabViewPreferenceKey.swift in Sources */,
+				047B30352A15CAE500FB2797 /* WMTabItemDefaultStyle.swift in Sources */,
+				047B30292A15CA6000FB2797 /* WMTabItemSelectionEnvironmentKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

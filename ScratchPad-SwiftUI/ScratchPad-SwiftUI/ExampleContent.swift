@@ -8,16 +8,16 @@
 import Foundation
 
 enum ExampleContent: Int, CaseIterable, Identifiable {
-    case targetedViewModifier1
+  case targetedViewModifier1
 }
 
 extension ExampleContent {
-    var id: Int { self.rawValue }
-    
-    var title: String {
-        switch self {
-        case .targetedViewModifier1:
-            return "특정된 ViewModifier1"
-        }
+  var id: Int { self.rawValue }
+  
+  var title: String {
+    switch self {
+    case .targetedViewModifier1:
+      return "특정된 ViewModifier1"
     }
+  }
 }
