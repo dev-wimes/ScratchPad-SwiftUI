@@ -25,6 +25,10 @@
 		047B30452A15CC5000FB2797 /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B30442A15CC5000FB2797 /* View+.swift */; };
 		047B30472A15CC7400FB2797 /* WMVisibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B30462A15CC7400FB2797 /* WMVisibility.swift */; };
 		047B304A2A15CD1800FB2797 /* WMTabPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B30492A15CD1800FB2797 /* WMTabPreview.swift */; };
+		047B304E2A15D19700FB2797 /* SizePreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B304D2A15D19700FB2797 /* SizePreferenceKey.swift */; };
+		047B30502A15D1A800FB2797 /* SizeHReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B304F2A15D1A800FB2797 /* SizeHReader.swift */; };
+		047B30522A15D1D100FB2797 /* SizeReadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B30512A15D1D100FB2797 /* SizeReadable.swift */; };
+		047B30542A15D1EF00FB2797 /* SizeVReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B30532A15D1EF00FB2797 /* SizeVReader.swift */; };
 		0481A48029CDCA7A00AF87EC /* ScratchPad_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481A47F29CDCA7A00AF87EC /* ScratchPad_SwiftUIApp.swift */; };
 		0481A48229CDCA7A00AF87EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481A48129CDCA7A00AF87EC /* ContentView.swift */; };
 		0481A48429CDCA7B00AF87EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0481A48329CDCA7B00AF87EC /* Assets.xcassets */; };
@@ -56,6 +60,10 @@
 		047B30442A15CC5000FB2797 /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
 		047B30462A15CC7400FB2797 /* WMVisibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMVisibility.swift; sourceTree = "<group>"; };
 		047B30492A15CD1800FB2797 /* WMTabPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMTabPreview.swift; sourceTree = "<group>"; };
+		047B304D2A15D19700FB2797 /* SizePreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizePreferenceKey.swift; sourceTree = "<group>"; };
+		047B304F2A15D1A800FB2797 /* SizeHReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeHReader.swift; sourceTree = "<group>"; };
+		047B30512A15D1D100FB2797 /* SizeReadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeReadable.swift; sourceTree = "<group>"; };
+		047B30532A15D1EF00FB2797 /* SizeVReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeVReader.swift; sourceTree = "<group>"; };
 		0481A47C29CDCA7A00AF87EC /* ScratchPad-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ScratchPad-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0481A47F29CDCA7A00AF87EC /* ScratchPad_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchPad_SwiftUIApp.swift; sourceTree = "<group>"; };
 		0481A48129CDCA7A00AF87EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -177,10 +185,30 @@
 		047B30482A15CCB600FB2797 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				047B304B2A15D17F00FB2797 /* SizeReader */,
 				047B30442A15CC5000FB2797 /* View+.swift */,
 				047B30462A15CC7400FB2797 /* WMVisibility.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		047B304B2A15D17F00FB2797 /* SizeReader */ = {
+			isa = PBXGroup;
+			children = (
+				047B304C2A15D18A00FB2797 /* PreferenceKey */,
+				047B30512A15D1D100FB2797 /* SizeReadable.swift */,
+				047B304F2A15D1A800FB2797 /* SizeHReader.swift */,
+				047B30532A15D1EF00FB2797 /* SizeVReader.swift */,
+			);
+			path = SizeReader;
+			sourceTree = "<group>";
+		};
+		047B304C2A15D18A00FB2797 /* PreferenceKey */ = {
+			isa = PBXGroup;
+			children = (
+				047B304D2A15D19700FB2797 /* SizePreferenceKey.swift */,
+			);
+			path = PreferenceKey;
 			sourceTree = "<group>";
 		};
 		0481A47329CDCA7A00AF87EC = {
@@ -323,9 +351,11 @@
 			files = (
 				047B30412A15CB6400FB2797 /* WMTabViewDefaultStyle.swift in Sources */,
 				047B301E2A15C9A100FB2797 /* View+WMTabView.swift in Sources */,
+				047B304E2A15D19700FB2797 /* SizePreferenceKey.swift in Sources */,
 				0481A48229CDCA7A00AF87EC /* ContentView.swift in Sources */,
 				0481A48029CDCA7A00AF87EC /* ScratchPad_SwiftUIApp.swift in Sources */,
 				047B30452A15CC5000FB2797 /* View+.swift in Sources */,
+				047B30542A15D1EF00FB2797 /* SizeVReader.swift in Sources */,
 				0481A49929CDCF3000AF87EC /* TargetedModifier1UIModel.swift in Sources */,
 				047B30202A15C9BC00FB2797 /* WMTabView.swift in Sources */,
 				047B30382A15CB2400FB2797 /* TabItemViewModifier.swift in Sources */,
@@ -334,10 +364,12 @@
 				047B30222A15C9D400FB2797 /* WMTabUIModel.swift in Sources */,
 				0481A49B29CDCF8800AF87EC /* TargetedModifier1PreferenceKey.swift in Sources */,
 				0481A49729CDCF2600AF87EC /* TargetedModifier1View.swift in Sources */,
+				047B30502A15D1A800FB2797 /* SizeHReader.swift in Sources */,
 				047B30302A15CAC600FB2797 /* WMTabItemPreferenceKey.swift in Sources */,
 				047B304A2A15CD1800FB2797 /* WMTabPreview.swift in Sources */,
 				0481A49329CDCEEE00AF87EC /* ExpandableViewModifier1Preview.swift in Sources */,
 				047B30472A15CC7400FB2797 /* WMVisibility.swift in Sources */,
+				047B30522A15D1D100FB2797 /* SizeReadable.swift in Sources */,
 				047B302D2A15CA9D00FB2797 /* WMTabViewVisibilityEnvrionmentKey.swift in Sources */,
 				047B302B2A15CA7500FB2797 /* WMTabView+EnvironmentValues.swift in Sources */,
 				047B303F2A15CB5C00FB2797 /* WMTabViewStyle.swift in Sources */,
