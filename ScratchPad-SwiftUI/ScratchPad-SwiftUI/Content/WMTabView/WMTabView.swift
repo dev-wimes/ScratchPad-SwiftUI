@@ -35,7 +35,7 @@ public struct WMTabView<Content: View>: View {
         self.model.tabViewStyle.tabView(with: geometry) {
           .init(TabItems)
         }
-        .visibility(self.isShow ? .visible : .gone)
+        .visibility(self.isShow ? .visible : .invisible)
       }
     }
     .environment(\.wmTabVisibility, self.$isShow)
