@@ -30,6 +30,10 @@ extension ContentView {
     switch content {
     case .targetedViewModifier1:
       TargetedModifier1PreView()
+    case .validationTextField:
+      ValidationTextFieldPreview()
+        .padding([.top], 50)
+        .padding([.leading, .trailing], 20)
     }
   }
 }

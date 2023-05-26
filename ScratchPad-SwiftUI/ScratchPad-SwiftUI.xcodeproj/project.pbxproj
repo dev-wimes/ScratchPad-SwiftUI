@@ -39,6 +39,10 @@
 		0481A49929CDCF3000AF87EC /* TargetedModifier1UIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481A49829CDCF3000AF87EC /* TargetedModifier1UIModel.swift */; };
 		0481A49B29CDCF8800AF87EC /* TargetedModifier1PreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481A49A29CDCF8800AF87EC /* TargetedModifier1PreferenceKey.swift */; };
 		0481A49D29CDCFB700AF87EC /* TargetedModifier1ViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481A49C29CDCFB700AF87EC /* TargetedModifier1ViewModifier.swift */; };
+		04A02A4C2A20E6FE005719A7 /* InvalidLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A02A4B2A20E6FE005719A7 /* InvalidLabelView.swift */; };
+		04A02A4E2A20E711005719A7 /* ValidationTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A02A4D2A20E711005719A7 /* ValidationTextField.swift */; };
+		04A02A502A20E754005719A7 /* View+ValidationTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A02A4F2A20E754005719A7 /* View+ValidationTextField.swift */; };
+		04A02A522A20E7C8005719A7 /* ValidationTextFieldPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A02A512A20E7C8005719A7 /* ValidationTextFieldPreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +79,10 @@
 		0481A49829CDCF3000AF87EC /* TargetedModifier1UIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetedModifier1UIModel.swift; sourceTree = "<group>"; };
 		0481A49A29CDCF8800AF87EC /* TargetedModifier1PreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetedModifier1PreferenceKey.swift; sourceTree = "<group>"; };
 		0481A49C29CDCFB700AF87EC /* TargetedModifier1ViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetedModifier1ViewModifier.swift; sourceTree = "<group>"; };
+		04A02A4B2A20E6FE005719A7 /* InvalidLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvalidLabelView.swift; sourceTree = "<group>"; };
+		04A02A4D2A20E711005719A7 /* ValidationTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationTextField.swift; sourceTree = "<group>"; };
+		04A02A4F2A20E754005719A7 /* View+ValidationTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+ValidationTextField.swift"; sourceTree = "<group>"; };
+		04A02A512A20E7C8005719A7 /* ValidationTextFieldPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationTextFieldPreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -255,6 +263,7 @@
 			children = (
 				0481A49229CDCEEE00AF87EC /* ExpandableViewModifier1Preview.swift */,
 				047B30492A15CD1800FB2797 /* WMTabPreview.swift */,
+				04A02A512A20E7C8005719A7 /* ValidationTextFieldPreview.swift */,
 			);
 			path = Preview;
 			sourceTree = "<group>";
@@ -262,6 +271,7 @@
 		0481A49429CDCF0600AF87EC /* Content */ = {
 			isa = PBXGroup;
 			children = (
+				04A02A4A2A20E6E4005719A7 /* ValidationTextField */,
 				047B301B2A15C95D00FB2797 /* WMTabView */,
 				0481A49529CDCF0D00AF87EC /* TargetedViewModifier1 */,
 			);
@@ -277,6 +287,16 @@
 				0481A49C29CDCFB700AF87EC /* TargetedModifier1ViewModifier.swift */,
 			);
 			path = TargetedViewModifier1;
+			sourceTree = "<group>";
+		};
+		04A02A4A2A20E6E4005719A7 /* ValidationTextField */ = {
+			isa = PBXGroup;
+			children = (
+				04A02A4B2A20E6FE005719A7 /* InvalidLabelView.swift */,
+				04A02A4D2A20E711005719A7 /* ValidationTextField.swift */,
+				04A02A4F2A20E754005719A7 /* View+ValidationTextField.swift */,
+			);
+			path = ValidationTextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -357,15 +377,18 @@
 				047B30452A15CC5000FB2797 /* View+.swift in Sources */,
 				047B30542A15D1EF00FB2797 /* SizeVReader.swift in Sources */,
 				0481A49929CDCF3000AF87EC /* TargetedModifier1UIModel.swift in Sources */,
+				04A02A4E2A20E711005719A7 /* ValidationTextField.swift in Sources */,
 				047B30202A15C9BC00FB2797 /* WMTabView.swift in Sources */,
 				047B30382A15CB2400FB2797 /* TabItemViewModifier.swift in Sources */,
 				047B30332A15CADC00FB2797 /* WMTabItemStyle.swift in Sources */,
 				0481A49D29CDCFB700AF87EC /* TargetedModifier1ViewModifier.swift in Sources */,
 				047B30222A15C9D400FB2797 /* WMTabUIModel.swift in Sources */,
+				04A02A522A20E7C8005719A7 /* ValidationTextFieldPreview.swift in Sources */,
 				0481A49B29CDCF8800AF87EC /* TargetedModifier1PreferenceKey.swift in Sources */,
 				0481A49729CDCF2600AF87EC /* TargetedModifier1View.swift in Sources */,
 				047B30502A15D1A800FB2797 /* SizeHReader.swift in Sources */,
 				047B30302A15CAC600FB2797 /* WMTabItemPreferenceKey.swift in Sources */,
+				04A02A4C2A20E6FE005719A7 /* InvalidLabelView.swift in Sources */,
 				047B304A2A15CD1800FB2797 /* WMTabPreview.swift in Sources */,
 				0481A49329CDCEEE00AF87EC /* ExpandableViewModifier1Preview.swift in Sources */,
 				047B30472A15CC7400FB2797 /* WMVisibility.swift in Sources */,
@@ -373,6 +396,7 @@
 				047B302D2A15CA9D00FB2797 /* WMTabViewVisibilityEnvrionmentKey.swift in Sources */,
 				047B302B2A15CA7500FB2797 /* WMTabView+EnvironmentValues.swift in Sources */,
 				047B303F2A15CB5C00FB2797 /* WMTabViewStyle.swift in Sources */,
+				04A02A502A20E754005719A7 /* View+ValidationTextField.swift in Sources */,
 				0481A48F29CDCBA300AF87EC /* ExampleContent.swift in Sources */,
 				047B30242A15CA1E00FB2797 /* GPTabItem.swift in Sources */,
 				047B30432A15CB9500FB2797 /* WMTabViewModifier.swift in Sources */,

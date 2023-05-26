@@ -9,6 +9,7 @@ import Foundation
 
 enum ExampleContent: Int, CaseIterable, Identifiable {
   case targetedViewModifier1
+  case validationTextField
 }
 
 extension ExampleContent {
@@ -18,6 +19,8 @@ extension ExampleContent {
     switch self {
     case .targetedViewModifier1:
       return "특정된 ViewModifier1"
+    case .validationTextField:
+      return "발리데이션텍스트필드"
     }
   }
 }
