@@ -1,5 +1,7 @@
 # ValidationTextField 
 
+**[코드](https://github.com/dev-wimes/ScratchPad-SwiftUI/tree/main/ScratchPad-SwiftUI/ScratchPad-SwiftUI/Content/ValidationTextField)**
+
 ## 개요
 
 피쳐의 궁극적인 목표는 다음과 같은 기능과 UI/UX를 갖는데에 있습니다.
