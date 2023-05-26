@@ -20,6 +20,15 @@ struct WMTabPreview: View {
           title: "First"
         )
 
+      NavigationView {
+        WMNavigationPreview()
+      }
+      .wmTabItem(
+        index: 1,
+        icon: Image(systemName: "chevron.right"),
+        title: "WMNavigation"
+      )
+      
       VStack {
         Spacer()
         Text("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
@@ -27,7 +36,7 @@ struct WMTabPreview: View {
       }
       .background(Color.purple)
       .wmTabItem(
-        index: 1,
+        index: 2,
         icon: Image(systemName: "house"),
         title: "First"
       )
@@ -47,7 +56,7 @@ struct WMTabPreview: View {
         }
       }
       .wmTabItem(
-        index: 2,
+        index: 3,
         icon: Image(systemName: "magnifyingglass"),
         title: "Second"
       )
@@ -96,7 +105,7 @@ struct WMTabPreview: View {
         }
       }
       .wmTabItem(
-        index: 3,
+        index: 4,
         icon: Image(systemName: "person"),
         title: "Third"
       )
@@ -107,7 +116,7 @@ struct WMTabPreview: View {
         }
       }
       .wmTabItem(
-        index: 4,
+        index: 5,
         icon: Image(systemName: "person"),
         title: "Third"
       )

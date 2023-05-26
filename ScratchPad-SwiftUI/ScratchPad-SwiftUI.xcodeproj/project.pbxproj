@@ -43,6 +43,14 @@
 		04A02A4E2A20E711005719A7 /* ValidationTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A02A4D2A20E711005719A7 /* ValidationTextField.swift */; };
 		04A02A502A20E754005719A7 /* View+ValidationTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A02A4F2A20E754005719A7 /* View+ValidationTextField.swift */; };
 		04A02A522A20E7C8005719A7 /* ValidationTextFieldPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A02A512A20E7C8005719A7 /* ValidationTextFieldPreview.swift */; };
+		04A02A572A20EB89005719A7 /* navigationAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A02A562A20EB89005719A7 /* navigationAppearance.swift */; };
+		04A02A592A20EBA5005719A7 /* WMToolbarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A02A582A20EBA5005719A7 /* WMToolbarItem.swift */; };
+		04A02A5B2A20EBB3005719A7 /* WMToolbarItemModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A02A5A2A20EBB3005719A7 /* WMToolbarItemModifier.swift */; };
+		04A02A5D2A20EBBD005719A7 /* WMToolbarVisibilityModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A02A5C2A20EBBD005719A7 /* WMToolbarVisibilityModifier.swift */; };
+		04A02A5F2A20EBCD005719A7 /* WMNavigationTitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A02A5E2A20EBCD005719A7 /* WMNavigationTitleModifier.swift */; };
+		04A02A612A20EBD6005719A7 /* View+WMNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A02A602A20EBD6005719A7 /* View+WMNavigation.swift */; };
+		04A02A642A20EDEB005719A7 /* WMNavigationPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A02A632A20EDEB005719A7 /* WMNavigationPreview.swift */; };
+		04A02A662A20EFA4005719A7 /* UINavigationController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A02A652A20EFA4005719A7 /* UINavigationController+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +91,14 @@
 		04A02A4D2A20E711005719A7 /* ValidationTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationTextField.swift; sourceTree = "<group>"; };
 		04A02A4F2A20E754005719A7 /* View+ValidationTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+ValidationTextField.swift"; sourceTree = "<group>"; };
 		04A02A512A20E7C8005719A7 /* ValidationTextFieldPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationTextFieldPreview.swift; sourceTree = "<group>"; };
+		04A02A562A20EB89005719A7 /* navigationAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationAppearance.swift; sourceTree = "<group>"; };
+		04A02A582A20EBA5005719A7 /* WMToolbarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMToolbarItem.swift; sourceTree = "<group>"; };
+		04A02A5A2A20EBB3005719A7 /* WMToolbarItemModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMToolbarItemModifier.swift; sourceTree = "<group>"; };
+		04A02A5C2A20EBBD005719A7 /* WMToolbarVisibilityModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMToolbarVisibilityModifier.swift; sourceTree = "<group>"; };
+		04A02A5E2A20EBCD005719A7 /* WMNavigationTitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMNavigationTitleModifier.swift; sourceTree = "<group>"; };
+		04A02A602A20EBD6005719A7 /* View+WMNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+WMNavigation.swift"; sourceTree = "<group>"; };
+		04A02A632A20EDEB005719A7 /* WMNavigationPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMNavigationPreview.swift; sourceTree = "<group>"; };
+		04A02A652A20EFA4005719A7 /* UINavigationController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,6 +277,7 @@
 		0481A48D29CDCB9700AF87EC /* Preview */ = {
 			isa = PBXGroup;
 			children = (
+				04A02A632A20EDEB005719A7 /* WMNavigationPreview.swift */,
 				0481A49229CDCEEE00AF87EC /* ExpandableViewModifier1Preview.swift */,
 				047B30492A15CD1800FB2797 /* WMTabPreview.swift */,
 				04A02A512A20E7C8005719A7 /* ValidationTextFieldPreview.swift */,
@@ -271,6 +288,7 @@
 		0481A49429CDCF0600AF87EC /* Content */ = {
 			isa = PBXGroup;
 			children = (
+				04A02A532A20EB15005719A7 /* WMNavigation */,
 				04A02A4A2A20E6E4005719A7 /* ValidationTextField */,
 				047B301B2A15C95D00FB2797 /* WMTabView */,
 				0481A49529CDCF0D00AF87EC /* TargetedViewModifier1 */,
@@ -297,6 +315,36 @@
 				04A02A4F2A20E754005719A7 /* View+ValidationTextField.swift */,
 			);
 			path = ValidationTextField;
+			sourceTree = "<group>";
+		};
+		04A02A532A20EB15005719A7 /* WMNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				04A02A552A20EB2D005719A7 /* Toolbar */,
+				04A02A542A20EB27005719A7 /* Appearance */,
+				04A02A5E2A20EBCD005719A7 /* WMNavigationTitleModifier.swift */,
+				04A02A602A20EBD6005719A7 /* View+WMNavigation.swift */,
+				04A02A652A20EFA4005719A7 /* UINavigationController+.swift */,
+			);
+			path = WMNavigation;
+			sourceTree = "<group>";
+		};
+		04A02A542A20EB27005719A7 /* Appearance */ = {
+			isa = PBXGroup;
+			children = (
+				04A02A562A20EB89005719A7 /* navigationAppearance.swift */,
+			);
+			path = Appearance;
+			sourceTree = "<group>";
+		};
+		04A02A552A20EB2D005719A7 /* Toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				04A02A582A20EBA5005719A7 /* WMToolbarItem.swift */,
+				04A02A5A2A20EBB3005719A7 /* WMToolbarItemModifier.swift */,
+				04A02A5C2A20EBBD005719A7 /* WMToolbarVisibilityModifier.swift */,
+			);
+			path = Toolbar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -385,21 +433,29 @@
 				047B30222A15C9D400FB2797 /* WMTabUIModel.swift in Sources */,
 				04A02A522A20E7C8005719A7 /* ValidationTextFieldPreview.swift in Sources */,
 				0481A49B29CDCF8800AF87EC /* TargetedModifier1PreferenceKey.swift in Sources */,
+				04A02A5D2A20EBBD005719A7 /* WMToolbarVisibilityModifier.swift in Sources */,
+				04A02A572A20EB89005719A7 /* navigationAppearance.swift in Sources */,
 				0481A49729CDCF2600AF87EC /* TargetedModifier1View.swift in Sources */,
+				04A02A5B2A20EBB3005719A7 /* WMToolbarItemModifier.swift in Sources */,
 				047B30502A15D1A800FB2797 /* SizeHReader.swift in Sources */,
 				047B30302A15CAC600FB2797 /* WMTabItemPreferenceKey.swift in Sources */,
 				04A02A4C2A20E6FE005719A7 /* InvalidLabelView.swift in Sources */,
+				04A02A642A20EDEB005719A7 /* WMNavigationPreview.swift in Sources */,
 				047B304A2A15CD1800FB2797 /* WMTabPreview.swift in Sources */,
 				0481A49329CDCEEE00AF87EC /* ExpandableViewModifier1Preview.swift in Sources */,
 				047B30472A15CC7400FB2797 /* WMVisibility.swift in Sources */,
+				04A02A662A20EFA4005719A7 /* UINavigationController+.swift in Sources */,
 				047B30522A15D1D100FB2797 /* SizeReadable.swift in Sources */,
 				047B302D2A15CA9D00FB2797 /* WMTabViewVisibilityEnvrionmentKey.swift in Sources */,
 				047B302B2A15CA7500FB2797 /* WMTabView+EnvironmentValues.swift in Sources */,
 				047B303F2A15CB5C00FB2797 /* WMTabViewStyle.swift in Sources */,
+				04A02A592A20EBA5005719A7 /* WMToolbarItem.swift in Sources */,
 				04A02A502A20E754005719A7 /* View+ValidationTextField.swift in Sources */,
 				0481A48F29CDCBA300AF87EC /* ExampleContent.swift in Sources */,
 				047B30242A15CA1E00FB2797 /* GPTabItem.swift in Sources */,
+				04A02A5F2A20EBCD005719A7 /* WMNavigationTitleModifier.swift in Sources */,
 				047B30432A15CB9500FB2797 /* WMTabViewModifier.swift in Sources */,
+				04A02A612A20EBD6005719A7 /* View+WMNavigation.swift in Sources */,
 				047B303D2A15CB4C00FB2797 /* WMTabViewPreferenceKey.swift in Sources */,
 				047B30352A15CAE500FB2797 /* WMTabItemDefaultStyle.swift in Sources */,
 				047B30292A15CA6000FB2797 /* WMTabItemSelectionEnvironmentKey.swift in Sources */,
